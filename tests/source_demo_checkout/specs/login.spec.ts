@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-import { LoginPage } from './LoginPage';
+import { LoginPage } from '../pages/LoginPage';
 
 test.describe('User Story 1: Secure Authentication & Session Persistence', () => {
   test('Login Success', async ({ page }) => {

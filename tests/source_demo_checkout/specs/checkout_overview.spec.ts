@@ -1,9 +1,9 @@
 import { test, expect } from '@playwright/test';
-import { LoginPage } from './LoginPage';
-import { InventoryPage } from './InventoryPage';
-import { CartPage } from './CartPage';
-import { CheckoutInfoPage } from './CheckoutInfoPage';
-import { CheckoutOverviewPage } from './CheckoutOverviewPage';
+import { LoginPage } from '../pages/LoginPage';
+import { InventoryPage } from '../pages/InventoryPage';
+import { CartPage } from '../pages/CartPage';
+import { CheckoutInfoPage } from '../pages/CheckoutInfoPage';
+import { CheckoutOverviewPage } from '../pages/CheckoutOverviewPage';
 
 test.describe('User Story 5: Order Finalization, Tax Calculation & Completion', () => {
   test('Calculation Logic', async ({ page }) => {

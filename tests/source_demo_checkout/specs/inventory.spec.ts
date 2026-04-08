@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
-import { LoginPage } from './LoginPage';
-import { InventoryPage } from './InventoryPage';
+import { LoginPage } from '../pages/LoginPage';
+import { InventoryPage } from '../pages/InventoryPage';
 
 test.describe('User Story 2: Dynamic Product Sorting & Inventory Management', () => {
   test('Default Sorting', async ({ page }) => {

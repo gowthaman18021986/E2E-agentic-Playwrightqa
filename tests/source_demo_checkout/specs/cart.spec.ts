@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
-import { LoginPage } from './LoginPage';
-import { InventoryPage } from './InventoryPage';
-import { CartPage } from './CartPage';
+import { LoginPage } from '../pages/LoginPage';
+import { InventoryPage } from '../pages/InventoryPage';
+import { CartPage } from '../pages/CartPage';
 
 test.describe('User Story 3: Comprehensive Cart Review & Item Persistence', () => {
   test('Inventory Sync', async ({ page }) => {

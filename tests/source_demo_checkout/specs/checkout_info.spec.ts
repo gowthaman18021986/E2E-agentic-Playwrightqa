@@ -1,8 +1,8 @@
 import { test, expect } from '@playwright/test';
-import { LoginPage } from './LoginPage';
-import { InventoryPage } from './InventoryPage';
-import { CartPage } from './CartPage';
-import { CheckoutInfoPage } from './CheckoutInfoPage';
+import { LoginPage } from '../pages/LoginPage';
+import { InventoryPage } from '../pages/InventoryPage';
+import { CartPage } from '../pages/CartPage';
+import { CheckoutInfoPage } from '../pages/CheckoutInfoPage';
 
 test.describe('User Story 4: Multi-Step Checkout Flow (Information Entry)', () => {
   test('Required Fields', async ({ page }) => {
